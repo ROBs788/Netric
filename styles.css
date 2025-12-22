@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #101728;
+    width: 100%;
+    height: 300vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    background-color: #101728;
+}
+
+.hero {
+    position: relative;
+}
+
+.netric {
+    z-index: 10000;
+    margin-right: 60vw;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "BBH Hegarty", sans-serif;
+    font-weight: 1200;
+}
+
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px;
+    z-index: 9999;
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 80px;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    right: 1000px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-left: 28vw;
+    margin-top: 8vh;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 10px;
+    box-shadow: #00aaff 0px 0px 22px 4px;
+
+}
+
+.container-left {
+    width: 20%;
+    height: 30vh;
+    position: absolute;
+    margin-top: 25vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    left: 70px;
+
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+button {
+    /* Permalink - use to edit and share this gradient. Link permanente - use para editar e compartilhar este gradiente: https://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+56,de47ac+98 */
+    background: linear-gradient(to right, #cb60b3 0%, #ad1283 56%, #850058 98%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #101728;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    z-index: 9998;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 102, 255, 0.900);
+    transition-duration: 3s;
+    background: linear-gradient(to right, #446293 1%, #54a3ee 50%, #3690f0 60%, #1e69de 100%);
+}
+
+a:hover {
+    color: #00ffff;
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 102, 255, 0.900);
+    border-radius: 20px;
+    background-color: #00aaff;
+    padding: 10px 20px;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    margin-top: 0;
+
+}
+
+.page-2 {
+    margin-top: 100vh;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #101728;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title-p2 {
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+
+
+}
+
+span {
+    color: #9340FF;
+}
+
+.paragraph {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+}
+
+.page-3 {
+    margin-top: 200vh;
+    display: inline-block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #101728;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container-left-p3 {
+    position: absolute;
+    background-color: #101728;
+    width: 50vw;
+    height: 100vh;
+}
+.image-p3{
+    margin: auto auto auto 60px;
+    z-index: 9999;
+    display: inline-block;
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.netric-2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "BBH Hegarty", sans-serif;
+    font-weight: 1200;
+    margin-left: 130px;
+    margin-top: 1.5vh;
+    position: absolute;
+    display: inline-block;
+    z-index: 9999;
+}
+
+.card-left-3{
+    width: 20vw;
+    height: 10vh;
+    margin-left: 18vw;
+    margin-top: 25vh;
+    display:inline-block;
+    position: relative
+
+    
+}
+
+.title-p3 {
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #9340FF;
+    width: 90%;
+    padding-top: 30vh;
+
+}
+.paragraph-p3 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+    margin-top: 20px;
+    z-index: 9997;
+}
+
+.container-right-p3 {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    background-color: #101728;
+    position: absolute;
+    margin-left: 50vw;
+    
+
+}
+
+.wrapper-2{
+    text-align: center;
+    background-color: #101728;
+    width: 100%;
+    height: 70%;
+}
+
+.image-redes-p3{
+    width: 250px;
+    height: 50px;
+    margin-left:200px;
+}

@@ -1,0 +1,59 @@
+@media (max-width: 1245px) {
+
+.container-tudo{
+
+display: grid;
+grid-template-columns: 1fr;
+background-color: red;
+width: 100%;
+height: 50%;
+position: absolute;
+align-items: center;
+text-align: center;
+
+}
+
+li{
+    display: none;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-left: 370px;
+    position:absolute;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 10px;
+    box-shadow: #00aaff 0px 0px 22px 4px;
+}
+
+
+
+    .container-right{
+    display: block ;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: #0c43d1;
+
+   
+    }
+
+    .container-left{
+        display: block ;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 40vh;
+        align-items: center;
+        background-color: #0c43d1;
+    
+       
+        }
+        
+
+
+}
