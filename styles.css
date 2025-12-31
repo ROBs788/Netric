@@ -347,3 +347,8 @@ span {
     height: 50px;
     margin-left:200px;
 }
+
+.efeito-txt-topo, .efeito-img-topo,
+ .efeito-page2-txt-left, .efeito-page2-txt-right, .efeito-page3-top, .efeito-page3-bottom {
+    visibility: hidden;
+}
